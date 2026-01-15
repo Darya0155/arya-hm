@@ -1,0 +1,34 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "c7f81a8f6b64fd7af15f9bf15e99e74cf378a1055bd17eead2886aff81a88fda": {
+      "displayName": "auth Nested Stack Template",
+      "source": {
+        "path": "amplifyaryahmapplesandbox85ab32eb2bauthC9E20A8A.nested.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-ee8175f8": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "c7f81a8f6b64fd7af15f9bf15e99e74cf378a1055bd17eead2886aff81a88fda.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "e44d1a740d483117f40deb7469c52f0ce933c1b0813f716c2802917fc6d304c3": {
+      "displayName": "amplify-aryahm-apple-sandbox-85ab32eb2b Template",
+      "source": {
+        "path": "amplify-aryahm-apple-sandbox-85ab32eb2b.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-8f21f84e": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "e44d1a740d483117f40deb7469c52f0ce933c1b0813f716c2802917fc6d304c3.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
